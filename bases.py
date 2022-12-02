@@ -10,6 +10,7 @@ print(type(y))
 print(id(y))
 print("")
 
+print("\n--------------------------------------------------")
 lista = [[1], [3, 4], [5, 6, 7]]
 otralista = [["Hola mundo", 16], [69, 42, 21], ['3', 11, "nais"]]
 print(lista)
@@ -22,6 +23,7 @@ print(otralista[1][2])
 print(otralista[2][0])
 print("")
 
+print("\n--------------------------------------------------")
 diccionario = {'nombre': "Paco", 'peso': 65.8, 'soltero': True}
 print(diccionario)
 print(diccionario['nombre'])
@@ -30,15 +32,15 @@ print(diccionario['soltero'])
 print("")
 
 #Concatenacion
-
+print("\n--------------------------------------------------")
 frutaFav = "mango"
 añadido = "con chile"
 
 print("Mi botana favorita es", frutaFav, añadido)
 
+print("\n--------------------------------------------------")
 x = 1
 y = 2
-
 print(x + y)
 
 x = "1"
@@ -47,6 +49,7 @@ y = "2"
 print(x + y)
 print("")
 
+print("\n--------------------------------------------------")
 # cadenas
 cadena = "hola, {}{}"
 valor = "perro"
@@ -55,8 +58,8 @@ otra_cadena = cadena.format(valor, ". Buenos dias")
 print(otra_cadena)
 print("")
 
+print("\n--------------------------------------------------")
 #Booleanos
-
 variable = 10 > 100
 print(variable)
 
@@ -76,15 +79,16 @@ else:
     print("El resultado es falso")
 print("")
 
+print("\n--------------------------------------------------")
 # funciones
 def sumar(m, n):
     return m + n
-
 
 print(sumar(5, 2))
 print(sumar(1, 2))
 print("")
 
+print("\n--------------------------------------------------")
 #funcion tipo switch
 def opcion(n):
     if n == 1:
@@ -101,6 +105,7 @@ def opcion(n):
 print(opcion(7))
 print("")
 
+print("\n--------------------------------------------------")
 #while
 n = 0
 while(n <= 5):
@@ -108,13 +113,14 @@ while(n <= 5):
     n += 1
 print("")
 
+print("\n--------------------------------------------------")
 #rango
 #range(0,7,2) ::: inicio, fin, paso ::: 1, 2, 3
 for x in range(10, 4, -1):
     print(x)
 
+print("\n--------------------------------------------------")
 #Entrada de usuario
-
 resultado = input("Escribe un mensaje: ") #Unicamente para valores de tipo str
 print("Valor proporcionado: ", resultado)
 print("Fin del programa")
