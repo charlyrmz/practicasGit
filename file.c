@@ -8,8 +8,7 @@ int multi();
 int divi();
 int selecciona;
 
-	int
-	main() {
+	int main() {
 	printf("\tCalculadora\n");
 	printf("1:Suma\n2:Resta\n3:Multiplicacion\n4:Division\n\tSeleccione una opcion: ");
 	scanf("%i", &selecciona);
